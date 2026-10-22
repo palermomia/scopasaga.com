@@ -39,6 +39,9 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--saffron); outline
 .cta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 .btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; border-radius: 14px; font: 800 18px var(--ui); text-decoration: none; background: var(--saffron); color: var(--ink); box-shadow: 0 4px 0 var(--saffron-deep); }
 .btn.soon { background: var(--paper); box-shadow: 0 4px 0 #CDBF9C; }
+/* Apple's official badge, unmodified: at least 40px tall, clear space of a quarter of its height. */
+.store-badge { display: inline-block; padding: 14px; margin: -14px; line-height: 0; }
+.store-badge img { height: 54px; width: auto; }
 .note { font-size: 15px; opacity: .85; }
 .fan { position: relative; height: 420px; }
 .fan img { position: absolute; top: 50%; left: 50%; width: 220px; border-radius: 14px; box-shadow: 0 14px 30px rgba(0,0,0,.35); transform-origin: 50% 120%; }
